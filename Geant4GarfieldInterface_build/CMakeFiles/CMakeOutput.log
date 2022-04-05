@@ -1,0 +1,1040 @@
+The system is: Linux - 3.10.0-1160.53.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/3.17.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/3.17.5/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_10eec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10eec.dir/build.make CMakeFiles/cmTC_10eec.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10eec.dir/testCCompiler.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc    -o CMakeFiles/cmTC_10eec.dir/testCCompiler.c.o   -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_10eec
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_10eec.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_10eec.dir/testCCompiler.c.o  -o cmTC_10eec 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6a43c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a43c.dir/build.make CMakeFiles/cmTC_6a43c.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include /usr/share/cmake3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o -version -o /tmp/nperera/ccoYH419.s
+GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include
+ /cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include
+ /cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1a2ef70f7244523314cda6f70d63d7fd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o /tmp/nperera/ccoYH419.s
+GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_6a43c
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_6a43c.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc     -v CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o  -o cmTC_6a43c 
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc
+COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a43c' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/nperera/ccxm5udG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6a43c /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a43c' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include]
+    add: [/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include] ==> [/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include;/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include;/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_6a43c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a43c.dir/build.make CMakeFiles/cmTC_6a43c.dir/build]
+  ignore line: [gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include /usr/share/cmake3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o -version -o /tmp/nperera/ccoYH419.s]
+  ignore line: [GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1a2ef70f7244523314cda6f70d63d7fd]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o /tmp/nperera/ccoYH419.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_6a43c]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_6a43c.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc     -v CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o  -o cmTC_6a43c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a43c' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/nperera/ccxm5udG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6a43c /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/nperera/ccxm5udG.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6a43c] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..]
+    arg [CMakeFiles/cmTC_6a43c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib64;/lib64;/usr/lib64;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6bfa5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6bfa5.dir/build.make CMakeFiles/cmTC_6bfa5.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6bfa5.dir/testCXXCompiler.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++     -o CMakeFiles/cmTC_6bfa5.dir/testCXXCompiler.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6bfa5
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_6bfa5.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++       CMakeFiles/cmTC_6bfa5.dir/testCXXCompiler.cxx.o  -o cmTC_6bfa5 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_904fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_904fe.dir/build.make CMakeFiles/cmTC_904fe.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -v -o CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include -D_GNU_SOURCE /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/nperera/ccbRTXRA.s
+GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include
+ /cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include
+ /cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1d3c435fb053d473c96b1ed9cb976a66
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o /tmp/nperera/ccbRTXRA.s
+GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_904fe
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_904fe.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++      -v CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_904fe 
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++
+COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_904fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/nperera/cco9LE9a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_904fe /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_904fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include]
+    add: [/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include] ==> [/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include/c++/10.3.0]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include/c++/10.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include/c++/10.3.0/backward]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include;/cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include;/cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include/c++/10.3.0;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include/c++/10.3.0/x86_64-pc-linux-gnu;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include/c++/10.3.0/backward;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_904fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_904fe.dir/build.make CMakeFiles/cmTC_904fe.dir/build]
+  ignore line: [gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -v -o CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include -D_GNU_SOURCE /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/nperera/ccbRTXRA.s]
+  ignore line: [GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/LCG_100/Boost/1.75.0/x86_64-centos7-gcc10-opt/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/views/LCG_100/x86_64-centos7-gcc10-opt/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1d3c435fb053d473c96b1ed9cb976a66]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o /tmp/nperera/ccbRTXRA.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_904fe]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_904fe.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++      -v CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_904fe ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang/build/contrib/gcc-10.3.0/src/gcc/10.3.0/configure --prefix=/build/dkonst/gcc-clang/lcgcmake-install/gcc/10.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_904fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/nperera/cco9LE9a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_904fe /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/nperera/cco9LE9a.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_904fe] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..]
+    arg [CMakeFiles/cmTC_904fe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/10.3.0;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib/gcc;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib64;/lib64;/usr/lib64;/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_76aa9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76aa9.dir/build.make CMakeFiles/cmTC_76aa9.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76aa9.dir/CheckIncludeFile.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc    -o CMakeFiles/cmTC_76aa9.dir/CheckIncludeFile.c.o   -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76aa9
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_76aa9.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_76aa9.dir/CheckIncludeFile.c.o  -o cmTC_76aa9 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wabi succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5cc7c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5cc7c.dir/build.make CMakeFiles/cmTC_5cc7c.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cc7c.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__Wabi   -Wabi -o CMakeFiles/cmTC_5cc7c.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5cc7c
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_5cc7c.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__Wabi    -rdynamic CMakeFiles/cmTC_5cc7c.dir/src.cxx.o  -o cmTC_5cc7c 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fabi_version_0 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a797b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a797b.dir/build.make CMakeFiles/cmTC_a797b.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a797b.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__fabi_version_0   -fabi-version=0 -o CMakeFiles/cmTC_a797b.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a797b
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_a797b.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__fabi_version_0    -rdynamic CMakeFiles/cmTC_a797b.dir/src.cxx.o  -o cmTC_a797b 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fabi_compat_version_0 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2dcd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dcd4.dir/build.make CMakeFiles/cmTC_2dcd4.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2dcd4.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__fabi_compat_version_0   -fabi-compat-version=0 -o CMakeFiles/cmTC_2dcd4.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2dcd4
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_2dcd4.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__fabi_compat_version_0    -rdynamic CMakeFiles/cmTC_2dcd4.dir/src.cxx.o  -o cmTC_2dcd4 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__ffp_contract_fast succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1aac3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1aac3.dir/build.make CMakeFiles/cmTC_1aac3.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1aac3.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__ffp_contract_fast   -ffp-contract=fast -o CMakeFiles/cmTC_1aac3.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1aac3
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_1aac3.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__ffp_contract_fast    -rdynamic CMakeFiles/cmTC_1aac3.dir/src.cxx.o  -o cmTC_1aac3 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_broadwell succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4bcb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4bcb0.dir/build.make CMakeFiles/cmTC_4bcb0.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bcb0.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__march_broadwell   -march=broadwell -o CMakeFiles/cmTC_4bcb0.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4bcb0
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_4bcb0.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__march_broadwell    -rdynamic CMakeFiles/cmTC_4bcb0.dir/src.cxx.o  -o cmTC_4bcb0 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse2 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fa0d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa0d7.dir/build.make CMakeFiles/cmTC_fa0d7.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa0d7.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__msse2   -msse2 -o CMakeFiles/cmTC_fa0d7.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fa0d7
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_fa0d7.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__msse2    -rdynamic CMakeFiles/cmTC_fa0d7.dir/src.cxx.o  -o cmTC_fa0d7 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse3 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6476e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6476e.dir/build.make CMakeFiles/cmTC_6476e.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6476e.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__msse3   -msse3 -o CMakeFiles/cmTC_6476e.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6476e
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_6476e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__msse3    -rdynamic CMakeFiles/cmTC_6476e.dir/src.cxx.o  -o cmTC_6476e 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file pmmintrin.h exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ad035/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad035.dir/build.make CMakeFiles/cmTC_ad035.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad035.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -msse3    -o CMakeFiles/cmTC_ad035.dir/CheckIncludeFile.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ad035
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_ad035.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -msse3     -rdynamic CMakeFiles/cmTC_ad035.dir/CheckIncludeFile.cxx.o  -o cmTC_ad035 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mssse3 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_37d6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37d6d.dir/build.make CMakeFiles/cmTC_37d6d.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37d6d.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mssse3   -mssse3 -o CMakeFiles/cmTC_37d6d.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_37d6d
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_37d6d.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mssse3    -rdynamic CMakeFiles/cmTC_37d6d.dir/src.cxx.o  -o cmTC_37d6d 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file tmmintrin.h exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_aec1e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aec1e.dir/build.make CMakeFiles/cmTC_aec1e.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aec1e.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -mssse3    -o CMakeFiles/cmTC_aec1e.dir/CheckIncludeFile.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_aec1e
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_aec1e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -mssse3     -rdynamic CMakeFiles/cmTC_aec1e.dir/CheckIncludeFile.cxx.o  -o cmTC_aec1e 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_1 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_73835/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73835.dir/build.make CMakeFiles/cmTC_73835.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73835.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__msse4_1   -msse4.1 -o CMakeFiles/cmTC_73835.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_73835
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_73835.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__msse4_1    -rdynamic CMakeFiles/cmTC_73835.dir/src.cxx.o  -o cmTC_73835 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_58ab6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58ab6.dir/build.make CMakeFiles/cmTC_58ab6.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58ab6.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -msse4.1    -o CMakeFiles/cmTC_58ab6.dir/CheckIncludeFile.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_58ab6
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_58ab6.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -msse4.1     -rdynamic CMakeFiles/cmTC_58ab6.dir/CheckIncludeFile.cxx.o  -o cmTC_58ab6 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_2 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_00625/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00625.dir/build.make CMakeFiles/cmTC_00625.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00625.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__msse4_2   -msse4.2 -o CMakeFiles/cmTC_00625.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_00625
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_00625.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__msse4_2    -rdynamic CMakeFiles/cmTC_00625.dir/src.cxx.o  -o cmTC_00625 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_eedf0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eedf0.dir/build.make CMakeFiles/cmTC_eedf0.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eedf0.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mavx   -mavx -o CMakeFiles/cmTC_eedf0.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eedf0
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_eedf0.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mavx    -rdynamic CMakeFiles/cmTC_eedf0.dir/src.cxx.o  -o cmTC_eedf0 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_43437/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43437.dir/build.make CMakeFiles/cmTC_43437.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43437.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -mavx    -o CMakeFiles/cmTC_43437.dir/CheckIncludeFile.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_43437
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_43437.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -mavx     -rdynamic CMakeFiles/cmTC_43437.dir/CheckIncludeFile.cxx.o  -o cmTC_43437 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mfma succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c71ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c71ce.dir/build.make CMakeFiles/cmTC_c71ce.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c71ce.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mfma   -mfma -o CMakeFiles/cmTC_c71ce.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c71ce
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_c71ce.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mfma    -rdynamic CMakeFiles/cmTC_c71ce.dir/src.cxx.o  -o cmTC_c71ce 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+      __m128 foo(__m128 x) { return _mm_fmadd_ps(x, x, x); }
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mbmi2 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0bbe8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0bbe8.dir/build.make CMakeFiles/cmTC_0bbe8.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0bbe8.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mbmi2   -mbmi2 -o CMakeFiles/cmTC_0bbe8.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0bbe8
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_0bbe8.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mbmi2    -rdynamic CMakeFiles/cmTC_0bbe8.dir/src.cxx.o  -o cmTC_0bbe8 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx2 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_da663/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da663.dir/build.make CMakeFiles/cmTC_da663.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da663.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mavx2   -mavx2 -o CMakeFiles/cmTC_da663.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_da663
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_da663.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mavx2    -rdynamic CMakeFiles/cmTC_da663.dir/src.cxx.o  -o cmTC_da663 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4a succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4bfcf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4bfcf.dir/build.make CMakeFiles/cmTC_4bfcf.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bfcf.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_sse4a   -mno-sse4a -o CMakeFiles/cmTC_4bfcf.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4bfcf
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_4bfcf.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_sse4a    -rdynamic CMakeFiles/cmTC_4bfcf.dir/src.cxx.o  -o cmTC_4bfcf 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_xop succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cff4d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cff4d.dir/build.make CMakeFiles/cmTC_cff4d.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cff4d.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_xop   -mno-xop -o CMakeFiles/cmTC_cff4d.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cff4d
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_cff4d.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_xop    -rdynamic CMakeFiles/cmTC_cff4d.dir/src.cxx.o  -o cmTC_cff4d 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_fma4 succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_16733/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16733.dir/build.make CMakeFiles/cmTC_16733.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16733.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_fma4   -mno-fma4 -o CMakeFiles/cmTC_16733.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16733
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_16733.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_fma4    -rdynamic CMakeFiles/cmTC_16733.dir/src.cxx.o  -o cmTC_16733 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512f succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c86d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c86d9.dir/build.make CMakeFiles/cmTC_c86d9.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c86d9.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512f   -mno-avx512f -o CMakeFiles/cmTC_c86d9.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c86d9
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_c86d9.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512f    -rdynamic CMakeFiles/cmTC_c86d9.dir/src.cxx.o  -o cmTC_c86d9 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vl succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_15cf8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15cf8.dir/build.make CMakeFiles/cmTC_15cf8.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15cf8.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512vl   -mno-avx512vl -o CMakeFiles/cmTC_15cf8.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_15cf8
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_15cf8.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512vl    -rdynamic CMakeFiles/cmTC_15cf8.dir/src.cxx.o  -o cmTC_15cf8 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512pf succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8116c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8116c.dir/build.make CMakeFiles/cmTC_8116c.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8116c.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512pf   -mno-avx512pf -o CMakeFiles/cmTC_8116c.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8116c
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_8116c.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512pf    -rdynamic CMakeFiles/cmTC_8116c.dir/src.cxx.o  -o cmTC_8116c 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512er succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_93adf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93adf.dir/build.make CMakeFiles/cmTC_93adf.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93adf.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512er   -mno-avx512er -o CMakeFiles/cmTC_93adf.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_93adf
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_93adf.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512er    -rdynamic CMakeFiles/cmTC_93adf.dir/src.cxx.o  -o cmTC_93adf 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512cd succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_47da4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47da4.dir/build.make CMakeFiles/cmTC_47da4.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47da4.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512cd   -mno-avx512cd -o CMakeFiles/cmTC_47da4.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_47da4
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_47da4.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512cd    -rdynamic CMakeFiles/cmTC_47da4.dir/src.cxx.o  -o cmTC_47da4 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512dq succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5e43d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e43d.dir/build.make CMakeFiles/cmTC_5e43d.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e43d.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512dq   -mno-avx512dq -o CMakeFiles/cmTC_5e43d.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e43d
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_5e43d.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512dq    -rdynamic CMakeFiles/cmTC_5e43d.dir/src.cxx.o  -o cmTC_5e43d 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512bw succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f5a59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5a59.dir/build.make CMakeFiles/cmTC_f5a59.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5a59.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512bw   -mno-avx512bw -o CMakeFiles/cmTC_f5a59.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5a59
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_f5a59.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512bw    -rdynamic CMakeFiles/cmTC_f5a59.dir/src.cxx.o  -o cmTC_f5a59 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512ifma succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7ffcb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ffcb.dir/build.make CMakeFiles/cmTC_7ffcb.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ffcb.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512ifma   -mno-avx512ifma -o CMakeFiles/cmTC_7ffcb.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7ffcb
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_7ffcb.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512ifma    -rdynamic CMakeFiles/cmTC_7ffcb.dir/src.cxx.o  -o cmTC_7ffcb 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vbmi succeeded with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b618e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b618e.dir/build.make CMakeFiles/cmTC_b618e.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b618e.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++    -Dcheck_cxx_compiler_flag__mno_avx512vbmi   -mno-avx512vbmi -o CMakeFiles/cmTC_b618e.dir/src.cxx.o -c /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b618e
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_b618e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/g++   -Dcheck_cxx_compiler_flag__mno_avx512vbmi    -rdynamic CMakeFiles/cmTC_b618e.dir/src.cxx.o  -o cmTC_b618e 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_826d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_826d8.dir/build.make CMakeFiles/cmTC_826d8.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_826d8.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_826d8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_826d8
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_826d8.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_826d8.dir/CheckFunctionExists.c.o  -o cmTC_826d8  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8c479/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c479.dir/build.make CMakeFiles/cmTC_8c479.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c479.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_8c479.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c479
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_8c479.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_8c479.dir/CheckFunctionExists.c.o  -o cmTC_8c479 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b150e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b150e.dir/build.make CMakeFiles/cmTC_b150e.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b150e.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_b150e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b150e
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_b150e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_b150e.dir/CheckFunctionExists.c.o  -o cmTC_b150e 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8b786/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b786.dir/build.make CMakeFiles/cmTC_8b786.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b786.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_8b786.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b786
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_8b786.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_8b786.dir/CheckFunctionExists.c.o  -o cmTC_8b786 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a674a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a674a.dir/build.make CMakeFiles/cmTC_a674a.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a674a.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_a674a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a674a
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_a674a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_a674a.dir/CheckFunctionExists.c.o  -o cmTC_a674a 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6a6ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a6ac.dir/build.make CMakeFiles/cmTC_6a6ac.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a6ac.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_6a6ac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a6ac
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_6a6ac.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/10.3.0-f5826/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_6a6ac.dir/CheckFunctionExists.c.o  -o cmTC_6a6ac  -lICE 
+gmake[1]: Leaving directory `/afs/cern.ch/work/n/nperera/g4_garfield_alfredo/Geant4GarfieldInterface_build/CMakeFiles/CMakeTmp'
+
+
+
